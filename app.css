@@ -5,12 +5,16 @@ background-color:#f0e6d1;
 h1{
 text-align:center;
 font-family: 'Roboto', sans-serif;
+font-size: xx-large;
 font-weight: 300;
-padding-top :1em;
+padding-top :2em;
 margin-top:1em;
+color: #14213d;
+
 }
 #logo{
 border: 1px black;
+
 }
 #header{
 margin-top:-4em;
@@ -58,4 +62,14 @@ width: 30em;
 height: auto;
 padding-right:20px;
 padding-top:20px;
+}
+a:hover{
+color: blue;
+
+
+}
+
+#bottom{
+background-color:#e3d5ca;
+
 }
