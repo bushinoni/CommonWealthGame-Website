@@ -28,7 +28,7 @@ h1 {
 a {
     color: #14213d;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
@@ -58,3 +58,48 @@ height: inherit;
 padding-top: 20px;
 
 }
+a:hover {
+    color: blue;
+    cursor: pointer;
+  
+  
+  }
+  
+  
+  .dropbtn {
+    opacity: none;
+    border: none;
+    size: 3em;
+    font-size: 25px;
+    background-color: #e3d5ca;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e3d5ca;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: gray;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:horizontal .dropbtn {
+    background-color: #3e8e41;
+  
+  }
+  .dropbtn:hover{
+    color: blue;
+  }
