@@ -82,3 +82,16 @@ a:hover {
 .dropbtn:hover {
     color: blue;
 }
+
+.justify{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.africa{
+font-size: xx-large;
+}
+#heading{
+    font-size: 30px;
+    text-decoration: underline 2px solid black;
+}
