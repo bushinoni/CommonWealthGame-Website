@@ -1,0 +1,91 @@
+body{
+background-color:#f5ebe0;
+}
+
+h1{
+display:inline-block;
+text-align:center;
+color:#219ebc;
+font-size:3em;
+padding-left:6em;
+}
+#nav{
+display: flex;
+background-color :#f4a261;
+justify-content:space-evenly;
+
+}
+#logo{
+padding-top:1.5em;
+padding-left:20px;
+}
+a{
+text-decoration:none;
+color:darkblue;
+font-size:1.5em;
+
+}
+a:hover{
+text-decoration:2px solid black dashed;
+color:red;
+font-size:1.6em;
+}
+h2{
+font-size:2em;
+text-align:center;
+text-decoration:2px solid black dashed;
+font-family:'roboto',san-seriff;
+font-weight:300;	
+
+}
+
+#img{
+width:53px;
+height:58px;
+padding-left:5px;
+padding-right:5px;
+}
+
+#addrs{
+display:flex;
+justify-content:right;
+
+}
+p{
+font-family:'roboto';
+font-size:1.3em;
+font-weight:300;
+}
+#copy{
+font-size:1.1em;
+text-align:right;
+margin-top:600px;
+}
+h3{
+text-align:center;
+padding-top:200px;
+font-size:1.5em;
+}
+table {
+display:flex;
+justify-content:center;
+}
+
+#part{
+font-size:1.4em;
+padding-left:1.5em;
+padding-right:1.5em;
+
+}
+hr{
+color:red;
+width:960px
+border 10px solid green;
+
+}
+
+::selection{
+    color: rgb(6, 6, 149);
+    background: #ec7e00d1;
+
+}
